@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+</head>
+<body>
+
+
+
+    <div class="centarlo">
+        <form class="form">
+            <p class="title">Registro </p>
+            <p class="message">Regístrate ahora y obtén acceso completo a nuestra aplicación. </p>
+                <div class="flex">
+                <label>
+                    <input class="input" type="text" placeholder="" required="">
+                    <span>Nombre</span>
+                </label>
+
+                <label>
+                    <input class="input" type="text" placeholder="" required="">
+                    <span>Apellido</span>
+                </label>
+            </div>  
+                    
+            <label>
+                <input class="input" type="email" placeholder="" required="">
+                <span>Correo electronico</span>
+            </label> 
+                
+            <label>
+                <input class="input" type="password" placeholder="" required="">
+                <span>Contraseña</span>
+            </label>
+            <label>
+                <input class="input" type="password" placeholder="" required="">
+                <span>Confirmar Contraseña</span>
+            </label>
+            <button class="submit">Registrar</button>
+            <p class="signin">¿Ya tienes una cuenta? <a href="#">Iniciar sesión</a> </p>
+        </form>
+    </div>
+
+    
+
+
+
+</body>
+</html>
+
+
